@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: pink;
+}
+.container{
+    background-color: white;
+    width: 500px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: pink(0, 0, 0, 4) 0px 3px 8px;
+
+}
+.container{
+    color: pink;
+    margin-bottom: 20px;
+
+}
+.container textarea{
+width: 300px;
+height: 120px;
+outline: none;
+outline: none;
+border-radius: 10px;
+padding: 10px;
+border: 2px solid black;
+transition: border 0.5s;
+margin-bottom: 25px;
+text-transform: uppercase;
+resize: none;
+}
+.container textarea{
+    border: 2px solid pink;
+}
+.container button{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    background-color: palevioletred;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: black;
+    transition: all 0.5s;
+
+}
+.container button:wover{
+    background-color: pink;
+    color pink
+}
